@@ -1,13 +1,86 @@
-/* App Container */
-.app-container {
+/* Root Variablen / Theme */
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px,
+            rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Body / Root */
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+}
+
+#root {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
   padding: 2rem;
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+}
+
+/* Headings */
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
 }
 
 h1 {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  margin: 32px 0;
   text-align: center;
-  margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 0;
+  font-size: 0.95rem;
 }
 
 /* Grid Layout */
@@ -15,6 +88,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
+  padding: 0 1rem 2rem;
 }
 
 /* Card Styles */
@@ -23,14 +97,15 @@ h1 {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
-  transition: transform 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .card:hover {
   transform: translateY(-5px);
+  box-shadow: rgba(0,0,0,0.15) 0 12px 20px -3px;
 }
 
 .card img {
@@ -49,10 +124,12 @@ h1 {
 .card p {
   font-size: 0.95rem;
   margin-bottom: 0.5rem;
+  color: #555;
+  text-align: left;
 }
 
 .card a {
-  color: #007bff;
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -64,6 +141,7 @@ h1 {
   font-size: 0.85rem;
   color: #555;
   margin-top: 0.5rem;
+  text-align: left;
 }
 
 .error {

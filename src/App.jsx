@@ -1,80 +1,56 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 function App() {
-  const [events, setEvents] = useState([]);
+  const [actions, setActions] = useState([]);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    const now = new Date().toISOString();
-
-    fetch(
-      `https://app.zetkin.org/api/orgs/1276/actions?filter=start_time>=${now}`
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        // sortieren nach Datum
-        const sorted = data.data.sort(
-          (a, b) => new Date(a.start_time) - new Date(b.start_time)
-        );
-
-        setEvents(sorted);
-      });
+    fetch('/api/orgs/1276/actions?filter=start_time>=2026-03-18T15:45:23.768Z')
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+        return res.json();
+      })
+      .then((data) => setActions(data.data || []))
+      .catch((err) => setError(err.message));
   }, []);
 
+  if (error) return <div>Error: {error}</div>;
+
   return (
-    <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-      <h1>Events</h1>
-
-      {events.map((event) => {
-        const start = new Date(event.start_time);
-
-        const date = start.toLocaleDateString("de-AT", {
-          weekday: "short",
-          day: "numeric",
-          month: "short",
-        });
-
-        const time = start.toLocaleTimeString("de-AT", {
-          hour: "2-digit",
-          minute: "2-digit",
-        });
-
-        return (
-          <div
-            key={event.id}
-            style={{
-              border: "1px solid #ccc",
-              padding: "16px",
-              marginBottom: "12px",
-              borderRadius: "8px",
-            }}
-          >
-            {/* Bild */}
-            {event.cover_file?.url && (
-              <img
-                src={event.cover_file.url}
-                alt=""
-                style={{ width: "100%", borderRadius: "6px" }}
-              />
-            )}
-
-            <h2>{event.title}</h2>
-
-            <p>
-              <strong>
-                {date} – {time}
-              </strong>
-            </p>
-
-            <p>{event.location?.title || "Online"}</p>
-
-            {event.info_text && (
-              <p style={{ opacity: 0.8 }}>
-                {event.info_text.slice(0, 120)}...
+    <div style={{ padding: '2rem', fontFamily: 'Arial, sans-serif' }}>
+      <h1>Zetkin Aktionen</h1>
+      {actions.length === 0 ? (
+        <p>Keine Aktionen gefunden.</p>
+      ) : (
+        <ul style={{ listStyle: 'none', padding: 0 }}>
+          {actions.map((action) => (
+            <li key={action.id} style={{ marginBottom: '2rem', borderBottom: '1px solid #ccc', paddingBottom: '1rem' }}>
+              <h2>{action.title}</h2>
+              <p>
+                <strong>Start:</strong> {new Date(action.start_time).toLocaleString()} <br />
+                <strong>Ende:</strong> {new Date(action.end_time).toLocaleString()}
               </p>
-            )}
-          </div>
-        );
-      })}
+              {action.location && (
+                <p>
+                  <strong>Ort:</strong> {action.location.title}
+                </p>
+              )}
+              {action.activity && <p><strong>Activity:</strong> {action.activity.title}</p>}
+              {action.url && (
+                <p>
+                  <a href={action.url} target="_blank" rel="noopener noreferrer">
+                    Anmeldung / Details
+                  </a>
+                </p>
+              )}
+              {action.cover_file && (
+                <img src={action.cover_file.url} alt={action.cover_file.original_name} style={{ maxWidth: '300px' }} />
+              )}
+              <p>{action.info_text}</p>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }

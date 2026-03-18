@@ -1,13 +1,15 @@
+// src/components/ActionCard.jsx
+import React from 'react';
+
 export default function ActionCard({ action }) {
   return (
     <div className="card">
       <h2>{action.title}</h2>
 
-      {/* Nur Bild anzeigen, wenn eines vorhanden ist */}
       {action.cover_file?.url && (
         <img
           src={action.cover_file.url}
-          alt={action.cover_file.original_name || action.title}
+          alt={action.cover_file.original_name || 'Bild'}
         />
       )}
 

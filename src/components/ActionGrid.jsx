@@ -1,3 +1,5 @@
+// src/components/ActionGrid.jsx
+import React from 'react';
 import ActionCard from './ActionCard';
 
 export default function ActionGrid({ actions }) {

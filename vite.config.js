@@ -1,31 +1,16 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig(({ mode }) => ({
+// Nutze die Umgebungsvariable
+export default defineConfig({
   plugins: [react()],
-
-  // Base path für GitHub Pages
-  base: mode === 'production' ? '/zetkin-jl/' : '/',
-
   server: {
     proxy: {
-      // Nur für lokale Entwicklung: /api → Zetkin API
       '/api': {
-        target: 'https://app.zetkin.org',
+        target: process.env.VITE_API_URL, // Stelle sicher, dass du die Umgebungsvariable korrekt verwendest
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '/api'),
       },
     },
   },
-
-  build: {
-    rollupOptions: {
-      output: {
-        // Stelle sicher, dass Assets in 'assets/' liegen
-        assetFileNames: 'assets/[name]-[hash][extname]',
-        chunkFileNames: 'assets/[name]-[hash].js',
-        entryFileNames: 'assets/[name]-[hash].js',
-      },
-    },
-  },
-}));
+});

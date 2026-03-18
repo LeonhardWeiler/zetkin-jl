@@ -1,0 +1,609 @@
+[
+  {
+    "id": 51722,
+    "title": "Online Schulung",
+    "num_participants_required": 5,
+    "num_participants_available": 4,
+    "start_time": "2026-03-18T18:00:00+00:00",
+    "end_time": "2026-03-18T19:30:00+00:00",
+    "info_text": "Was? Junge Linke interne Zetkin Schulung via Zoom\nWer? Vorstände und alle, die mit Mobilisierungslisten arbeiten\n\n!! Die Schulung findet nur statt, wenn 24h vorher mind. 4 Personen angemeldet sind, damit wir rechtzeitig die Zugriffe einstellen können !!\n\nWir steigen auf das neue Datenbank- und Mobilisierungstool Zetkin um!\nDamit wir Zetkin bald im gesamten Verband anwenden können starten wir mit online Schulungen.\nWir werden gemeinsam:\n\n- mit (Mobilisierungs-)listen arbeiten\n- Veranstaltungen erstellen, die wahrscheinlich in Zukunft so automatisch auf die Website kommen\n- die wichtigsten Do's und Dont's bei der Arbeit mit Zetkin besprechen",
+    "url": "",
+    "activity": null,
+    "location": null,
+    "published": "2026-03-16T09:27:09",
+    "published_by_user": {
+      "id": 75029,
+      "first_name": "Emily",
+      "last_name": "Draper"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 8046,
+      "title": "Zetkin Schulungen online"
+    },
+    "contact": {
+      "id": 1592528,
+      "name": "Emily Draper"
+    },
+    "organization": {
+      "id": 1276,
+      "title": "Junge Linke"
+    },
+    "cover_file": null
+  },
+  {
+    "id": 51182,
+    "title": "Bezirksvorständecrashkurs 03/26",
+    "num_participants_required": 10,
+    "num_participants_available": 11,
+    "start_time": "2026-03-20T16:00:00+00:00",
+    "end_time": "2026-03-22T13:30:00+00:00",
+    "info_text": "Wir laden alle Bezirksvorstände herzlich ein zum 1. Bezirksvorständecrashkurs 2026 in St. Pölten :) Der Crashkurs geht über 2,5 Tage (Fr Nachmittag - Sonntag Mittag) und findet im Haus der KPÖ Niederösterreich (Andreas-Hofer-Straße 4, St. Pölten) statt.\n\nBeim Crashkurs beschäftigen wir uns mit der Geschichte und dem Selbstverständnis von Junge Linke, erarbeiten uns, was die Aufgabe eines Bezirksvorstandes vor Ort ist und wie man mit Herausforderungen in der Gruppe umgehen kann. Außerdem erwarten dich verschiedene Workshops, z.B. zu Strategie-Entwicklung und Moderation.\n\nUm das Seminar finanzieren zu können, heben wir am Beginn der Veranstaltung einen Unkostenbeitrag von € 20,- (Standard) oder € 10,- (Reduziert) ein. Für Essen und Getränke ist am Wochenende gesorgt!\n\nEine Teilnahme sollte nie am Geld scheitern. Falls es sich bei dir finanziell nicht ausgeht, melde dich einfach via Mail bei uns und wir finden eine Lösung!\n\nWenn du Zeit und Lust hast, dabei zu sein, dann melde dich bitte bei Vroni per Mail (veronika.hackl@jungelinke.at) oder über den Link an!\n\nWir freuen uns auf dich! :)\n\nAnmeldung: https://app.zetkin.org/o/1276/surveys/2917",
+    "url": "https://app.zetkin.org/o/1276/surveys/2917",
+    "activity": {
+      "id": 3221,
+      "title": "Workshop"
+    },
+    "location": {
+      "id": 2140832,
+      "lat": 48.20548509402319,
+      "lng": 15.618434947344182,
+      "title": "Junge Linke Niederösterreich"
+    },
+    "published": "2026-03-07T09:30:46",
+    "published_by_user": {
+      "id": 116331,
+      "first_name": "Veronika",
+      "last_name": "Hackl"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 7858,
+      "title": "Bezirksvorständecrashkurs Junge Linke 2026"
+    },
+    "contact": null,
+    "organization": {
+      "id": 1276,
+      "title": "Junge Linke"
+    },
+    "cover_file": null
+  },
+  {
+    "id": 51749,
+    "title": "Hot Topic März - Innsbruck",
+    "num_participants_required": 8,
+    "num_participants_available": 2,
+    "start_time": "2026-03-23T18:00:00+00:00",
+    "end_time": "2026-03-23T20:00:00+00:00",
+    "info_text": "Was passiert gerade im Iran – und was bedeutet das für die Zukunft des Landes?\n\nDurch einen Angriff der USA und Israel wurden Ajatollah Ali Chamenei und weitere iranische Führungspersonen ermordet. Trotz sich widersprechender Aussagen von Trump, Rubio und Vance über die Gründe des Krieges scheint es klar: Das alte Mullah Regime soll weg.\nViele Iraner*innen – im Iran und in der Diaspora – hoffen auf Veränderungen, manche auf eine Rückkehr der Monarchie. Andere wiederum verurteilen die Angriffe und stellen sich hinter das Regime.\n\nIn diesem Workshop werfen wir einen genaueren Blick auf die historischen Entwicklungen der gesellschaftlichen Kräfteverhältnisse im Iran.\nDabei fragen wir uns: Wie kam es zu der jetzigen Situation, welche Rolle spielte die iranische Linke dabei und was kommt nun? Wird sich die Lage im Land verbessern oder wird sich nichts ändern und das Regime an der Macht bleiben? Und warum solidarisieren sich viele Linke im Namen des “Antiimperialismus” mit dem iranischen Regime?\n\nEs ist kein Vorwissen notwendig! Komm vorbei und bring auch gern deine Freund:innen mit und diskutiert mit uns mit! 👥",
+    "url": "",
+    "activity": {
+      "id": 3287,
+      "title": "Hot Topics"
+    },
+    "location": {
+      "id": 2140641,
+      "lat": 47.264912526411415,
+      "lng": 11.413453907224914,
+      "title": "Volksklub Innsbruck"
+    },
+    "published": "2026-03-16T13:24:04",
+    "published_by_user": {
+      "id": 116143,
+      "first_name": "Sabine",
+      "last_name": "Lerch"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 8055,
+      "title": "Hot Topics IBK"
+    },
+    "contact": {
+      "id": 1634571,
+      "name": "Sabine Lerch"
+    },
+    "organization": {
+      "id": 1292,
+      "title": "JL Innsbruck"
+    },
+    "cover_file": {
+      "id": 9249,
+      "original_name": "January_12_gathering_6_khamenei.ir_2026-1024x682.jpg",
+      "uploaded": "2026-03-16T13:19:45.753284",
+      "organization": {
+        "id": 1292,
+        "title": "JL Innsbruck"
+      },
+      "url": "https://files.zetk.in/1292/aefc50fc-bc02-4540-848d-c32d2f037716.jpg",
+      "mime_type": "image/jpeg"
+    }
+  },
+  {
+    "id": 51725,
+    "title": "Online Schulung",
+    "num_participants_required": 5,
+    "num_participants_available": 6,
+    "start_time": "2026-03-24T18:00:00+00:00",
+    "end_time": "2026-03-24T19:30:00+00:00",
+    "info_text": "Was? Junge Linke interne Zetkin Schulung via Zoom\nWer? Vorstände und alle, die mit Mobilisierungslisten arbeiten\n\n!! Die Schulung findet nur statt, wenn 24h vorher mind. 4 Personen angemeldet sind, damit wir rechtzeitig die Zugriffe einstellen können !!\n\nWir steigen auf das neue Datenbank- und Mobilisierungstool Zetkin um!\nDamit wir Zetkin bald im gesamten Verband anwenden können starten wir mit online Schulungen.\nWir werden gemeinsam:\n\n- mit (Mobilisierungs-)listen arbeiten\n- Veranstaltungen erstellen, die wahrscheinlich in Zukunft so automatisch auf die Website kommen\n- die wichtigsten Do's und Dont's bei der Arbeit mit Zetkin besprechen",
+    "url": "",
+    "activity": null,
+    "location": null,
+    "published": "2026-03-16T09:32:39",
+    "published_by_user": {
+      "id": 75029,
+      "first_name": "Emily",
+      "last_name": "Draper"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 8046,
+      "title": "Zetkin Schulungen online"
+    },
+    "contact": {
+      "id": 1592528,
+      "name": "Emily Draper"
+    },
+    "organization": {
+      "id": 1276,
+      "title": "Junge Linke"
+    },
+    "cover_file": null
+  },
+  {
+    "id": 51724,
+    "title": "Online Schulung",
+    "num_participants_required": 5,
+    "num_participants_available": 2,
+    "start_time": "2026-03-26T15:00:00+00:00",
+    "end_time": "2026-03-26T16:30:00+00:00",
+    "info_text": "Was? Junge Linke interne Zetkin Schulung via Zoom\nWer? Vorstände und alle, die mit Mobilisierungslisten arbeiten\n\n!! Die Schulung findet nur statt, wenn 24h vorher mind. 4 Personen angemeldet sind, damit wir rechtzeitig die Zugriffe einstellen können !!\n\nWir steigen auf das neue Datenbank- und Mobilisierungstool Zetkin um!\nDamit wir Zetkin bald im gesamten Verband anwenden können starten wir mit online Schulungen.\nWir werden gemeinsam:\n\n- mit (Mobilisierungs-)listen arbeiten\n- Veranstaltungen erstellen, die wahrscheinlich in Zukunft so automatisch auf die Website kommen\n- die wichtigsten Do's und Dont's bei der Arbeit mit Zetkin besprechen",
+    "url": "https://tuwien.zoom.us/j/61904874837?pwd=7vGCj20ZWblMayJU0bghmCF8MjncFb.1",
+    "activity": null,
+    "location": null,
+    "published": "2026-03-16T09:30:25",
+    "published_by_user": {
+      "id": 75029,
+      "first_name": "Emily",
+      "last_name": "Draper"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 8046,
+      "title": "Zetkin Schulungen online"
+    },
+    "contact": {
+      "id": 1671224,
+      "name": "Veronika Hackl"
+    },
+    "organization": {
+      "id": 1276,
+      "title": "Junge Linke"
+    },
+    "cover_file": null
+  },
+  {
+    "id": 50336,
+    "title": "2026 Landeskongress Wien",
+    "num_participants_required": 90,
+    "num_participants_available": 47,
+    "start_time": "2026-03-28T09:00:00+00:00",
+    "end_time": "2026-03-28T20:00:00+00:00",
+    "info_text": "➡️ Hier findest du eine Anleitung zur ersten Anmeldung mit Zetkin: https://docs.google.com/document/d/1I0DOsdt66VM8l0-f4MSW-Q1fN-n3VeeTaUDErDLEVL0/edit?usp=sharing\n\nAls Junge Linke Wien haben wir in den letzten beiden Jahren Wahlkämpfe geschlagen, solidarische Projekte aufgebaut und viele Bildungsveranstaltungen organisiert. Wir setzen im nächsten Jahr einen nächsten mutigen Schritt!\n\nWir wollen mit einem ersten eigenen Lokal ein Zentrum für  Junge Linke Wien schaffen und das selbst finanzieren. Dort wollen wir einen entspannten Lernraum schaffen, günstiges Essen anbieten und uns in der Frisörwerkstatt gegenseitig das Haare schneiden beibringen! Wir wollen einen Ort für Selbstorganisierung schaffen!\n\nDas wird eine große Aufgabe, die wir nur gemeinsam bewältigen können 🚩\nBeim Landeskongress  am 28. März erwarten dich spannende politische Debatten, die Möglichkeit, Junge Linke aus ganz Wien kennenzulernen – und natürlich eine Afterparty in der neuen Location in der D'Orsaygasse, um auf ein starkes Jahr anzustoßen. Melde dich gleich an!\n\nHard Facts:\n📅 Wann? Samstag, 28. März 2026, 09:00 – 19:00 Uhr, dann Afterparty im neuen Lokal ✨\n📍 Wo? Drechslergasse 42, 1140 Wien\n\nMelde dich gerne bei mir, wenn du Fragen hast: mara.thormeier@jungelinke.at.\n\nVorläufige Tagesordnung:\n9:00 Ankunft & Anmeldung \n10:00 Eröffnung und Kennenlernen\n10:30 Beginn Kongress: Grußworte, Berichte, Danksagungen\n11:45 Pause\n12:00 Finanzbericht, Leitantrag\n13:30  Mittagspause und Fotos\n14:30 Jahresplan, sonstige Anträge\n16:00-16:15 Pause\n16:15 Kandidaturen, Wahlen und Allfälliges\n18:00 Abendessen\n20:00  Party\n\nTeilnahmebeiträge:\n10€ Reduziert\n15€ Standard\n25€ Soli\n\nWir freuen uns auf einen spannenden Kongress! ❤️",
+    "url": "",
+    "activity": null,
+    "location": {
+      "id": 2081591,
+      "lat": 48.19802838767526,
+      "lng": 16.306947559277713,
+      "title": "Drechslergasse 42"
+    },
+    "published": "2026-02-20T14:12:17",
+    "published_by_user": {
+      "id": 116319,
+      "first_name": "Florian",
+      "last_name": "Kammerhuber"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 7500,
+      "title": "FK Landeskongress Wien 2026"
+    },
+    "contact": {
+      "id": 1634612,
+      "name": "Florian Kammerhuber"
+    },
+    "organization": {
+      "id": 1277,
+      "title": "JL Wien"
+    },
+    "cover_file": {
+      "id": 8671,
+      "original_name": "IMG_1119.JPG",
+      "uploaded": "2026-02-28T17:54:05.080949",
+      "organization": {
+        "id": 1277,
+        "title": "JL Wien"
+      },
+      "url": "https://files.zetk.in/1277/945908ed-170d-4c1d-9330-7bd002dcefd5.jpg",
+      "mime_type": "image/jpeg"
+    }
+  },
+  {
+    "id": 51726,
+    "title": "Online Schulung",
+    "num_participants_required": 5,
+    "num_participants_available": 3,
+    "start_time": "2026-04-02T17:00:00+00:00",
+    "end_time": "2026-04-02T18:30:00+00:00",
+    "info_text": "Was? Junge Linke interne Zetkin Schulung via Zoom\nWer? Vorstände und alle, die mit Mobilisierungslisten arbeiten\n\n!! Die Schulung findet nur statt, wenn 24h vorher mind. 4 Personen angemeldet sind, damit wir rechtzeitig die Zugriffe einstellen können !!\n\nWir steigen auf das neue Datenbank- und Mobilisierungstool Zetkin um!\nDamit wir Zetkin bald im gesamten Verband anwenden können starten wir mit online Schulungen.\nWir werden gemeinsam:\n\n- mit (Mobilisierungs-)listen arbeiten\n- Veranstaltungen erstellen, die wahrscheinlich in Zukunft so automatisch auf die Website kommen\n- die wichtigsten Do's und Dont's bei der Arbeit mit Zetkin besprechen",
+    "url": "https://tuwien.zoom.us/j/65202447369?pwd=hsfpKStNwzzMDvXcM4nOSbrl9JULbA.1",
+    "activity": null,
+    "location": null,
+    "published": "2026-03-16T09:36:29",
+    "published_by_user": {
+      "id": 75029,
+      "first_name": "Emily",
+      "last_name": "Draper"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 8046,
+      "title": "Zetkin Schulungen online"
+    },
+    "contact": {
+      "id": 1671224,
+      "name": "Veronika Hackl"
+    },
+    "organization": {
+      "id": 1276,
+      "title": "Junge Linke"
+    },
+    "cover_file": null
+  },
+  {
+    "id": 51681,
+    "title": "Landeskongress: Spread your Wings!",
+    "num_participants_required": 50,
+    "num_participants_available": 9,
+    "start_time": "2026-04-11T09:00:00+00:00",
+    "end_time": "2026-04-11T17:00:00+00:00",
+    "info_text": "Spread your Wings!\n\nWas das kommende Jahr für uns bereit hält und wie wir unsere Pläne umsetzen können, diskutieren wir gemeinsam beim Landeskongress am 11. April in der Melicharstraße 8, Linz.\n\nWir wollen möglichst viele Menschen ins Planen einbinden und organisieren darum die Planungswerkstatt, eine Möglichkeit für Alle sich aus den Bezirksgruppen im Jahresplan zu beteiligen. Dazu mehr in deiner lokalen Bezirksgruppe!\n\nDarum komm zum Landeskongress und planen wir gemeinsam! ",
+    "url": "",
+    "activity": null,
+    "location": {
+      "id": 2316759,
+      "lat": 48.288681267406076,
+      "lng": 14.30024027824402,
+      "title": "Melicharstraße 8"
+    },
+    "published": "2026-03-14T21:44:46",
+    "published_by_user": {
+      "id": 116955,
+      "first_name": "Philipp",
+      "last_name": "Rosenberger"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 8017,
+      "title": "Landeskongress"
+    },
+    "contact": null,
+    "organization": {
+      "id": 1286,
+      "title": "JL Oberösterreich"
+    },
+    "cover_file": {
+      "id": 9226,
+      "original_name": "54478380903_3a89ceec71_k.jpg",
+      "uploaded": "2026-03-14T21:43:38.201031",
+      "organization": {
+        "id": 1286,
+        "title": "JL Oberösterreich"
+      },
+      "url": "https://files.zetk.in/1286/19187971-be88-4348-97bb-ecdc59f503f6.jpg",
+      "mime_type": "image/jpeg"
+    }
+  },
+  {
+    "id": 49728,
+    "title": null,
+    "num_participants_required": 2,
+    "num_participants_available": 2,
+    "start_time": "2026-04-17T09:00:00+00:00",
+    "end_time": "2026-04-17T20:00:00+00:00",
+    "info_text": "Unsere Jährliche Organizing Konferenz. Jetzt neu: Mit Smarties",
+    "url": "",
+    "activity": {
+      "id": 3104,
+      "title": "Organizing Konferenz"
+    },
+    "location": {
+      "id": 1844590,
+      "lat": 53.07196425000426,
+      "lng": 8.81584167480469,
+      "title": "Bremen"
+    },
+    "published": "2026-02-04T15:44:40",
+    "published_by_user": {
+      "id": 116117,
+      "first_name": "",
+      "last_name": ""
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 7220,
+      "title": "Organizing Konferenz 2026 | Bremen"
+    },
+    "contact": {
+      "id": 1592368,
+      "name": "Jos Wobblie"
+    },
+    "organization": {
+      "id": 1297,
+      "title": "IWW Test"
+    },
+    "cover_file": {
+      "id": 8207,
+      "original_name": "logo-2.png",
+      "uploaded": "2026-02-04T15:43:16.907565",
+      "organization": {
+        "id": 1297,
+        "title": "IWW Test"
+      },
+      "url": "https://files.zetk.in/1297/9505964f-9d1f-46dd-a785-d4e180c639d5.png",
+      "mime_type": "image/png"
+    }
+  },
+  {
+    "id": 51686,
+    "title": "Skillworkshop Moderation",
+    "num_participants_required": 15,
+    "num_participants_available": 1,
+    "start_time": "2026-04-18T10:00:00+00:00",
+    "end_time": "2026-04-18T16:30:00+00:00",
+    "info_text": "Die Kunst der Moderation\nmit Veronika Hackl\n\nDer Traum einer jeden politischen Gruppe? Treffen, die Spaß machen, in denen sich alle einbringen können und man wirklich etwas weiterbringt. Ein wichtiges Werkzeug, um das zu schaffen, ist gute Moderation. Beim Workshop zu Moderation lernst du, was gute Moderation ausmacht, wie man sich darauf vorbereiten kann, wie man mit schwierigen Situationen umgeht und kannst selbst ganz viel ausprobieren.",
+    "url": "",
+    "activity": {
+      "id": 3221,
+      "title": "Workshop"
+    },
+    "location": {
+      "id": 2140828,
+      "lat": 48.037944005912145,
+      "lng": 14.418838223034873,
+      "title": "Dominikanerhaus"
+    },
+    "published": "2026-03-15T13:15:42",
+    "published_by_user": {
+      "id": 75029,
+      "first_name": "Emily",
+      "last_name": "Draper"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 8025,
+      "title": "Skillworkshops"
+    },
+    "contact": {
+      "id": 1671224,
+      "name": "Veronika Hackl"
+    },
+    "organization": {
+      "id": 1276,
+      "title": "Junge Linke"
+    },
+    "cover_file": {
+      "id": 9227,
+      "original_name": "54552748933_a809773304_c.jpg",
+      "uploaded": "2026-03-15T13:28:59.317680",
+      "organization": {
+        "id": 1276,
+        "title": "Junge Linke"
+      },
+      "url": "https://files.zetk.in/1276/a8cdf70f-e293-4a70-937a-a9d999ec6dad.jpg",
+      "mime_type": "image/jpeg"
+    }
+  },
+  {
+    "id": 51691,
+    "title": "Skillworkshop politische Kommunikation",
+    "num_participants_required": 15,
+    "num_participants_available": 1,
+    "start_time": "2026-04-26T10:00:00+00:00",
+    "end_time": "2026-04-26T16:30:00+00:00",
+    "info_text": "",
+    "url": "",
+    "activity": {
+      "id": 3221,
+      "title": "Workshop"
+    },
+    "location": {
+      "id": 2316827,
+      "lat": 48.22287749894568,
+      "lng": 16.36457294225693,
+      "title": "D'Orsaygasse"
+    },
+    "published": "2026-03-15T14:08:39",
+    "published_by_user": {
+      "id": 75029,
+      "first_name": "Emily",
+      "last_name": "Draper"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 8025,
+      "title": "Skillworkshops"
+    },
+    "contact": {
+      "id": 1634479,
+      "name": "Hannah Pichler"
+    },
+    "organization": {
+      "id": 1276,
+      "title": "Junge Linke"
+    },
+    "cover_file": {
+      "id": 9233,
+      "original_name": "53668530202_81bef1de74_c.jpg",
+      "uploaded": "2026-03-15T13:57:26.591862",
+      "organization": {
+        "id": 1276,
+        "title": "Junge Linke"
+      },
+      "url": "https://files.zetk.in/1276/9dd95121-6f49-4094-8e5a-0ec15ab573e0.jpg",
+      "mime_type": "image/jpeg"
+    }
+  },
+  {
+    "id": 51689,
+    "title": "Skillworkshop Fotografie",
+    "num_participants_required": 15,
+    "num_participants_available": 1,
+    "start_time": "2026-05-16T10:00:00+00:00",
+    "end_time": "2026-05-16T16:30:00+00:00",
+    "info_text": "",
+    "url": "",
+    "activity": {
+      "id": 3221,
+      "title": "Workshop"
+    },
+    "location": {
+      "id": 2140832,
+      "lat": 48.20548509402319,
+      "lng": 15.618434947344182,
+      "title": "Junge Linke Niederösterreich"
+    },
+    "published": "2026-03-15T13:55:48",
+    "published_by_user": {
+      "id": 75029,
+      "first_name": "Emily",
+      "last_name": "Draper"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 8025,
+      "title": "Skillworkshops"
+    },
+    "contact": {
+      "id": 1592528,
+      "name": "Emily Draper"
+    },
+    "organization": {
+      "id": 1276,
+      "title": "Junge Linke"
+    },
+    "cover_file": {
+      "id": 9231,
+      "original_name": "51201668545_91261936dd_c.jpg",
+      "uploaded": "2026-03-15T13:50:10.149095",
+      "organization": {
+        "id": 1276,
+        "title": "Junge Linke"
+      },
+      "url": "https://files.zetk.in/1276/fb1d034b-923a-4d8d-af17-0afa4d3116e0.jpg",
+      "mime_type": "image/jpeg"
+    }
+  },
+  {
+    "id": 51694,
+    "title": "Skillworkshop politische Kommunikation",
+    "num_participants_required": 15,
+    "num_participants_available": 1,
+    "start_time": "2026-05-16T10:00:00+00:00",
+    "end_time": "2026-05-16T16:30:00+00:00",
+    "info_text": "",
+    "url": "",
+    "activity": {
+      "id": 3221,
+      "title": "Workshop"
+    },
+    "location": {
+      "id": 2140812,
+      "lat": 47.81213489833471,
+      "lng": 13.04170648231875,
+      "title": "Volksheim Salzburg"
+    },
+    "published": "2026-03-15T14:09:30",
+    "published_by_user": {
+      "id": 75029,
+      "first_name": "Emily",
+      "last_name": "Draper"
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 8025,
+      "title": "Skillworkshops"
+    },
+    "contact": {
+      "id": 1634479,
+      "name": "Hannah Pichler"
+    },
+    "organization": {
+      "id": 1276,
+      "title": "Junge Linke"
+    },
+    "cover_file": {
+      "id": 9233,
+      "original_name": "53668530202_81bef1de74_c.jpg",
+      "uploaded": "2026-03-15T13:57:26.591862",
+      "organization": {
+        "id": 1276,
+        "title": "Junge Linke"
+      },
+      "url": "https://files.zetk.in/1276/9dd95121-6f49-4094-8e5a-0ec15ab573e0.jpg",
+      "mime_type": "image/jpeg"
+    }
+  },
+  {
+    "id": 49729,
+    "title": "Strategiekonferenz 2026",
+    "num_participants_required": 2,
+    "num_participants_available": 2,
+    "start_time": "2026-09-18T08:00:00+00:00",
+    "end_time": "2026-09-19T16:00:00+00:00",
+    "info_text": "Europäische Strategiekonferenz",
+    "url": "",
+    "activity": {
+      "id": 3105,
+      "title": "Strategiekonferenz"
+    },
+    "location": {
+      "id": 1844591,
+      "lat": 52.510313862014904,
+      "lng": 13.38958740234375,
+      "title": "Berlin"
+    },
+    "published": "2026-02-04T15:52:10",
+    "published_by_user": {
+      "id": 116117,
+      "first_name": "",
+      "last_name": ""
+    },
+    "cancelled": null,
+    "cancelled_by_user": null,
+    "campaign": {
+      "id": 7220,
+      "title": "Organizing Konferenz 2026 | Bremen"
+    },
+    "contact": null,
+    "organization": {
+      "id": 1297,
+      "title": "IWW Test"
+    },
+    "cover_file": null
+  }
+]

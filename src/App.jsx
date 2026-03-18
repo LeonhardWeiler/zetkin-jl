@@ -1,4 +1,3 @@
-// src/App.jsx
 import { useEffect, useState } from 'react';
 import './App.css';
 import ActionGrid from './components/ActionGrid';
@@ -11,7 +10,9 @@ const ORG_IDS = [
 const CACHE_KEY = 'zetkinActions';
 const CACHE_TTL = 1000 * 60 * 5; // 5 Minuten
 
-export default function App() {
+const API_URL = import.meta.env.VITE_API_URL; // API-URL aus der Umgebungsvariable
+
+function App() {
   const [actions, setActions] = useState([]);
   const [error, setError] = useState(null);
 
@@ -21,13 +22,14 @@ export default function App() {
       const { timestamp, data } = JSON.parse(cached);
       if (Date.now() - timestamp < CACHE_TTL) {
         setActions(data);
-        return;
+        return; // Daten aus Cache nehmen
       }
     }
 
+    // Fetch von API
     Promise.all(
       ORG_IDS.map((id) =>
-        fetch(`/api/orgs/${id}/actions?filter=start_time>=2026-03-18T00:00:00Z`)
+        fetch(`${API_URL}/api/orgs/${id}/actions?filter=start_time>=2026-03-18T00:00:00Z`)
           .then((res) => {
             if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
             return res.json();
@@ -40,6 +42,7 @@ export default function App() {
         merged.sort((a, b) => new Date(a.start_time) - new Date(b.start_time));
         setActions(merged);
 
+        // Daten im Cache speichern
         localStorage.setItem(
           CACHE_KEY,
           JSON.stringify({ timestamp: Date.now(), data: merged })
@@ -56,3 +59,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
